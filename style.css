@@ -1,0 +1,31 @@
+body {
+  margin-top: 20px;
+  background-color: #222;
+}
+
+.chart {
+  background-color: #DDD;
+  margin: auto;
+  font-family: monospace;
+}
+
+.tooltip {
+  width: auto;
+  height: auto;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  font-size: 25;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+}
+
+svg .bar:hover {
+  fill: grey;
+}
+
+.y-axis > path {
+  stroke-width: 0;
+}
